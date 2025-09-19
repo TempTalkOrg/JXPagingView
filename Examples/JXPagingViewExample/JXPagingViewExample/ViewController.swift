@@ -65,15 +65,6 @@ class ViewController: UITableViewController {
         case 11:
             let vc = ListCacheViewController()
             self.navigationController?.pushViewController(vc, animated: true)
-        case 12:
-            let vc = PagingNestCategoryExampleViewController()
-            self.navigationController?.pushViewController(vc, animated: true)
-        case 13:
-            let vc = PagingNestTwoCategoryExampleViewController()
-            self.navigationController?.pushViewController(vc, animated: true)
-        case 14:
-            let vc = PagingNestPagingExampleViewController()
-            self.navigationController?.pushViewController(vc, animated: true)
         default:
             break
         }

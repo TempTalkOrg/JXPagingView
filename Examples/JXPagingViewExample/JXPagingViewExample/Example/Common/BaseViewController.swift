@@ -109,11 +109,6 @@ class BaseViewController: UIViewController, JXSegmentedViewDelegate {
     func segmentedView(_ segmentedView: JXSegmentedView, didSelectedItemAt index: Int) {
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = (index == 0)
     }
-    
-    @objc
-    func mainTableViewDidScroll(_ scrollView: UIScrollView) {
-        
-    }
 }
 
 extension BaseViewController: JXPagingViewDelegate {

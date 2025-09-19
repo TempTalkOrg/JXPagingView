@@ -30,7 +30,6 @@
 | **HeaderView更新高度示例**<br/> 参考[HeightChangeAnimationViewController.swift](https://github.com/pujiaxin33/JXPagingView/tree/master/Examples/JXPagingViewExample/JXPagingViewExample/Example/HeightChange/HeightChangeAnimationViewController.swift)类 <br/> 只有swift demo工程才有该示例 | ![Refresh](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/HeaderViewHeightChange.gif) |
 | **PagingView嵌套CategoryView** <br/> 参考[NestViewController](https://github.com/pujiaxin33/JXPagingView/tree/master/Examples/JXPagerViewExample-OC/JXPagerViewExample-OC/Example/Nest/NestViewController.m)类 <br/> 只有 **OC!OC!OC!** 的demo工程才有该示例 <br/> 操作比较特殊，如果需要此效果，<br/> 请认真参考源码，有问题多试试 <br/> 参考NestViewController.h类 | ![Nest](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/Nest.gif) |
 | **CategoryView嵌套PagingView** <br/> 参考[NestViewController.swift](https://github.com/pujiaxin33/JXPagingView/tree/master/Examples/JXPagingViewExample/JXPagingViewExample/Example/CategoryNestPaging/NestViewController.swift)类 <br/> 只有 **Swift!Swift!Swift!** 的demo工程才有该示例 <br/> 操作比较特殊，如果需要此效果，<br/> 请认真参考源码，有问题多试试 <br/> 参考NestViewController.swift类 | ![Nest](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/CategoryNestPaging.gif) |
-| **PagingView嵌套PagingView** <br/> 参考[NestViewController.swift](https://github.com/pujiaxin33/JXPagingView/blob/master/Examples/JXPagingViewExample/JXPagingViewExample/Example/PagingNestPaging/PagingNestPagingExampleViewController.swift)类 <br/> 只有 **Swift!Swift!Swift!** 的demo工程才有该示例 <br/> 操作比较特殊，如果需要此效果，<br/> 请认真参考源码，有问题多试试 <br/> 参考PagingNestPagingExampleViewController.swift类 | ![PagingView嵌套PagingView](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/pagingNestPaging.gif) |
 | **点击状态栏**  | ![Zoom](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/StatusBarClicked.gif) | 
 | **横竖屏旋转**  | ![Zoom](https://github.com/pujiaxin33/JXExampleImages/blob/master/JXPaingView/ScreenRotate.gif) | 
 | **JXPageListView**<br/> 顶部需要自定义cell的场景，类似于电商APP首页，滑动到列表最底部才是分类控制器 <br/> 该效果是另一个库，点击查看[JXPageListView](https://github.com/pujiaxin33/JXPageListView) <br/> 该效果是另一个库，点击查看[JXPageListView](https://github.com/pujiaxin33/JXPageListView) <br/> 该效果是另一个库，点击查看[JXPageListView](https://github.com/pujiaxin33/JXPageListView) | ![list](https://github.com/pujiaxin33/JXPageListView/blob/master/JXPageListView/Gif/headerLoading.gif) |
@@ -272,8 +271,6 @@ self.categoryView.defaultSelectedIndex = 2;
 
 [全屏手势兼容处理文档，点击查看 ❗️❗️❗️](https://github.com/pujiaxin33/JXPagingView/blob/master/Document/%E5%85%A8%E5%B1%8F%E6%89%8B%E5%8A%BF%E5%A4%84%E7%90%86.md)
 
-### 侧滑手势处理
-[侧滑手势处理](./Document/侧滑手势处理.md)
 
 ## 迁移指南
 - **0.0.9版本**：将下面两个API的返回值修改为了NSUInteger(swift版本为Int)，之前版本是CGFloat，升级为0.0.9及以上的时候，记得修改一下使用地方的返回值类型，不然会引起crash。
